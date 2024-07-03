@@ -1,0 +1,50 @@
+.App {
+  text-align: left; /* Alineación a la izquierda */
+  padding: 20px; /* Agrega padding a la aplicación */
+  
+}
+
+.App-header {
+  background-color: #1e3a8a; /* Cambia el color de fondo a un tono más oscuro */
+  min-height: 60vh; /* Reduce la altura mínima */
+  display: flex;
+  flex-direction: row; /* Cambia la dirección del flex a fila */
+  align-items: center;
+  justify-content: space-between; /* Justificación del contenido */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.card {
+  background-color: #f8fafc; /* Cambia el color de fondo de la tarjeta */
+  border-radius: 12px; /* Aumenta el radio de borde */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Incrementa la sombra de la caja */
+  margin: 20px; /* Aumenta el margen */
+  padding: 20px; /* Agrega padding */
+}
+
+h3 {
+  color: #1e293b; /* Cambia el color del texto para un buen contraste */
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1e3a8a; /* Asegúrate de que el color de fondo del body coincida con el header */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h2, h3 {
+  color: #ffffff; /* Para que los encabezados se vean bien en el nuevo fondo */
+}
+
+p {
+  color: #1e293b; /* Para que los párrafos tengan buen contraste */
+}
